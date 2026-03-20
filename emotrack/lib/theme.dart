@@ -12,9 +12,8 @@ const kTextMuted  = Color(0xFF5A7FA0);
 const kTextHint   = Color(0xFF9AB8D0);
 
 // ── API ──────────────────────────────────────────────────────
-// TODO: Replace with your Render.com URL after deploying backend
-const kApiBase    = 'https://mental-health-emotion-api.onrender.com';
-
+// TODO: Replace with your Render.com URL after deploying backendconst kApiBase    = 'https://mental-health-emotion-api.onrender.com';
+const kApiBase = 'https://Melani7576-mental-health-api.hf.space';
 // ── Emotion data ─────────────────────────────────────────────
 const kEmojis = {
   'anger':   '😡',
