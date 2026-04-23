@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "Emotrack",
+    "slug": "emotrack",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.emotrack.app"
+    },
+    "android": {
+      "package": "com.emotrack.app"
+    },
+    "plugins": []
+  }
+}

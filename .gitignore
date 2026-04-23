@@ -1,0 +1,32 @@
+# ── Only track: MobileApp/, Model Code/, HuggingFace Space/, README.md ────────
+
+# Ignore everything at the root level by default
+/*
+
+# Then explicitly allow only what we want
+!MobileApp/
+!Model Code/
+!HuggingFace Space/
+!README.md
+!.gitignore
+
+# Inside MobileApp — exclude generated/heavy folders
+MobileApp/node_modules/
+MobileApp/android/
+MobileApp/ios/
+MobileApp/.expo/
+MobileApp/dist/
+
+# Inside Model Code — exclude model weights and cache
+Model Code/__pycache__/
+Model Code/*.pyc
+Model Code/ekman_emotion_model/
+Model Code/.claude/
+
+# Inside HuggingFace Space — exclude secrets
+HuggingFace Space/.env
+
+# System
+.DS_Store
+Thumbs.db
+*.log
